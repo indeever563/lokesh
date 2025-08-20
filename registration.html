@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>
+registration form
+</title>
+ <style>
+    .form-container {
+      border: 2px solid black; /* Border thickness and color */
+      padding: 20px;           /* Some padding inside the border */
+      width: 300px;            /* Optional fixed width */
+      margin: auto;            /* Center the container */
+      border-radius: 8px;      /* Optional rounded corners */
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.2); /* Optional shadow */
+    }
+  </style>
+</head>
+<body>
+<center>
+<div class=form-container>
+<h1>registration form</h1><br><br>
+username=<input type="text" placeholder="enter username"    ><br>
+email=<input type="text" placeholder="enter valid email"><br>
+phone no=<input type="int" placeholder="enter mobile no"><br>
+<label>Date of Birth=</label>
+      <input type="date" name="dob" min="1900-01-01" max="2025-12-31" required><br>
+address=<input type="text" placeholder="enter address"><br>
+Gender:
+    <label>
+      <input type="radio" name="gender" value="male" required>
+      Male
+    </label>
+    <label>
+      <input type="radio" name="gender" value="female">
+      female
+    </label>
+     <label>
+      <input type="radio" name="gender" value="trans" >
+        others
+     </label><br><br>
+
+terms:<br>
+<label>
+      <input type="checkbox" name="terms" required>
+      I accept the terms and conditions
+    </label><br><br>
+
+<button>submit</button>
+<button>cancel</button>
+</center>
+</div>
+</body>
+</html>
+
